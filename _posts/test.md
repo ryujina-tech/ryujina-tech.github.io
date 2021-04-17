@@ -1,3 +1,8 @@
+---
+layout: single
+title:  "test"
+---
+
 test
 
 #test
