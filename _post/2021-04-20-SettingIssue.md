@@ -5,8 +5,8 @@
 - 공유기 접속 환경에서 eth ip 주소 확인이 안될 경우 
 
   -> VMware 환경 설정 Network Adapter 아래와 같이 설정 변경
-
-  ![VMware image](./img/Issue-VMware-1.png)
+  
+![115132764-ec218100-a03d-11eb-96e7-595fe5ebcd28](https://user-images.githubusercontent.com/47252423/115280610-16c92200-a183-11eb-99c5-ec909a2e01b2.png)
 
   
 
@@ -16,7 +16,7 @@
 
   -> 아래 이미지와 같이 인코딩 설정(korean)
 
-  ![Xshell image](./img/Issue-Xshell-1.png)
+![115132765-ed52ae00-a03d-11eb-8430-3f10ad85a03a](https://user-images.githubusercontent.com/47252423/115280796-46782a00-a183-11eb-9179-5ea839193ae8.png)
 
 
 
