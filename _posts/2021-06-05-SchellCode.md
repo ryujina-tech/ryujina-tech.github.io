@@ -40,7 +40,7 @@ void main()
 }
 ```
 
-![image-20210606214923447](image-20210606214923447.png)
+![image-20210606214923447](https://user-images.githubusercontent.com/47252423/120928083-2fcf6780-c71e-11eb-8b82-ae5e4cbc06f1.png)
 
 ```
 #include <unistd.h>
@@ -78,7 +78,7 @@ int execve(const char *pathname, char *const argv[],
 >
 >    - ***운영체제의 버전과 libc의 버전에 따라 호출 형태나 링크가 달라질 수 있기 때문에*** 영향을 받지 않기 위해서 printf() ***기계어 코드를 실행파일이 직접 가지고 있게*** 할 수 있는데 그 방법이 ***Static Link Library***이다. 다만, DLL 보다 실행파일의 크기가 커질것이다. 
 >
->   ![image-20210606225231176](image-20210606225231176.png)
+>   ![image-20210606225231176](https://user-images.githubusercontent.com/47252423/120928093-3958cf80-c71e-11eb-810d-09b4c630d6e2.png)
 
 
 
@@ -98,6 +98,6 @@ int execve(const char *pathname, char *const argv[],
   [level11@ftz tmp]$ objdump -d sh | grep execve
   ```
 
-  ![image-20210606230917912](image-20210606230917912.png)
+  ![image-20210606230917912](https://user-images.githubusercontent.com/47252423/120928102-41187400-c71e-11eb-9027-0a8d6062fa65.png)
 
   
